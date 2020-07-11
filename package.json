@@ -1,0 +1,23 @@
+{
+  "name": "minecraft-resource-pack-factory",
+  "version": "0.0.0",
+  "description": "This is a template for development a minecraft resource pack.",
+  "main": "",
+  "scripts": {
+    "zip-pack": "cd src && zip -r -9 ../pack/ae-vanila-rcp pack.png pack.mcmeta assets/ && cd ..",
+    "clean-pack": "rm pack/*.zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianoenache/minecraft-resource-pack-factory.git"
+  },
+  "keywords": [
+    "Minecraft, Resource-pack"
+  ],
+  "author": "adrianoenache",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianoenache/minecraft-resource-pack-factory/issues"
+  },
+  "homepage": "https://github.com/adrianoenache/minecraft-resource-pack-factory#readme"
+}
