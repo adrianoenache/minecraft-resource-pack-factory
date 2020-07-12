@@ -4,7 +4,7 @@
   "description": "This is a template for development a minecraft resource pack.",
   "main": "",
   "scripts": {
-    "zip-pack": "cd src && zip -r -9 ../pack/ae-vanila-rcp pack.png pack.mcmeta assets/ && cd ..",
+    "zip-pack": "cd src && zip -r -9 ../pack/ae-vanila-compressed-rcp pack.png pack.mcmeta assets/ && cd ..",
     "clean-pack": "rm pack/*.zip"
   },
   "repository": {
